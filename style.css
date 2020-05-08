@@ -1,0 +1,394 @@
+                                                    /* First Menu Bar */
+                                                    .row{
+                                                        width: 101.1%;
+                                                    }
+                                                    .First-menu-bar{
+                                                        background-color: #316DC3;
+                                                        text-align: center;
+                                                        display: inline-flex;
+                                                        width: 100%;
+                                                        height: 50px;
+                                                    }
+                                                    .images{
+                                                        margin-left: 100px;
+                                                        margin-top: 10px;
+                                                    }
+                                                    span img{
+                                                        height: 23px;
+                                                        width: 30px;
+                                                        margin-left: 10px;
+                                                    }
+                                                    .Line{
+                                                        margin: 13px 0px 0px 122px;
+                                                        color: white;
+                                                        font-size: 13px;
+                                                     }
+                                                    .buttons{
+                                                        margin-left: 63px;
+                                                        margin-top: 7px;
+                                                     }
+                                                   @media screen and (max-width:1200px){
+                                                       .First-menu-bar{
+                                                           display: block;
+                                                           width: 100%;
+                                                           height: 160px;
+                                                           padding: 10px;
+                                                       }
+                                                       .images{
+                                                           margin: 0 auto;
+                                                       }
+                                                       .Line{
+                                                           margin: 0 auto;
+                                                           padding: 15px;
+                                                           font-size: 15px;
+                                                       }
+                                                       .buttons{
+                                                          margin: 0 auto;
+                                                          padding: 15px;
+                                                       }
+                                                   }
+
+
+
+
+
+
+
+
+
+
+                                                   /* Second Menu Bar */
+                                                   .Saylani-logo{
+                                                    width: 170px;
+                                                    height: 50px;
+                                                    margin-top: 7px;
+                                                    margin-left: 100px;
+                                                }
+                                                nav{
+                                                    background-color: #eee;
+                                                }
+                                                div ul{
+                                                        margin-left: 300px;
+                                                }
+                                                div ul li{
+                                                    margin-left: 15px;
+                                                }
+                                                .active,a:hover {
+                                                    background-color:#316DC3 ;
+                                                    transition: 0.3s;
+                                                 }
+                                                 div ul li a,.active{
+                                                    border-radius: 20px;
+                                                 }
+
+
+                                                 /* Marquee Text */
+                                                 .scroll{
+                                                background: #316DC3;
+                                                color: white;
+                                                margin: 10px 90px 0px 90px;
+                                                font-family: Arial, Helvetica, sans-serif;
+                                                font-size: 13px;
+                                                padding: 5px;
+                                                }
+                                                .blue{
+                                                    color: blue;
+                                                }
+                                                .green{
+                                                    color: lightgreen;
+                                                }
+                                                @media screen and (max-width:1200px){
+                                                    .scroll{
+                                                        width: 100%;
+                                                        margin: 0px;
+                                                        margin-top: 10px;
+                                                    }
+                                                }
+
+
+
+
+
+                                                /* INTRODUCTION */
+                                                .container-fluid{
+                                                    background-color: #f7f8fa;
+                                                    margin-top: 20px;
+                                                }
+                                                .INTRODUCTION{
+                                                    text-align: center;
+                                                }
+                                                h2{
+                                                    padding: 40px;
+                                                }
+                                                .lightblue{
+                                                    font-family: normal;
+                                                    color: #316DC3;
+                                                }
+                                                .lightgreen{
+                                                    font-family: normal;
+                                                    color: darkgreen;
+                                                }
+                                                .INTRO-PARAGRAPH{
+                                                    text-align: justify;
+                                                    line-height: 25px;
+                                                    font-family: Arial, Helvetica, sans-serif;
+                                                    font-size: 14px;
+                                                }
+                                                .Services{
+                                                    background-color: royalblue;
+                                                    padding: 30px;
+                                                    margin-top: 80px;
+                                                }
+                                                .Services-Info{
+                                                    margin: 0 auto;
+                                                }
+                                                .spoon-image{
+                                                    width: 25px;
+                                                    height: 25px;
+                                                    margin-top: 40px;
+                                                    margin-left: 130px;
+                                                }
+                                                .family-image{
+                                                    width: 25px;
+                                                    height: 25px;
+                                                    margin-top: 40px;
+                                                    margin-left: 120px;   
+                                                }
+                                                .medical-image{
+                                                    width: 25px;
+                                                    height: 25px;
+                                                    margin-top: 40px;
+                                                    margin-left: 80px;    
+                                                }
+                                                .education-image{
+                                                    width: 25px;
+                                                    height: 25px;
+                                                    margin-top: 40px;
+                                                    margin-left: 130px; 
+                                                }
+                                                .amount p{
+                                                    font-size: 50px;
+                                                    color: white;
+                                                    text-align: center;
+                                                    font-family: normal;
+                                                }
+                                                .DASTRKHAN-Monthly{
+                                                    color: white;
+                                                    font-size:15px;
+                                                     text-transform: uppercase;
+                                                     font-family: normal;
+                                                }
+                                                .half-color-green{
+                                                    color: #00FF00;
+                                                     font-size: 20px;
+                                                }
+                                                .Family-Adoptions{
+                                                    color: white;
+                                                    font-size:15px;
+                                                     text-transform: uppercase;
+                                                     margin-left: 20px;
+                                                     font-family: normal;
+                                                }
+                                                .Medical{
+                                                    color: white;
+                                                    font-size:15px;
+                                                     text-transform: uppercase;
+                                                     margin-left: 20px;
+                                                     font-family: normal;
+                                                }
+                                                .Education{
+                                                    color: white;
+                                                    font-size:15px;
+                                                     text-transform: uppercase;
+                                                     margin-left: 20px;
+                                                     font-family: normal;
+                                                }
+                    
+
+
+                                                /* What We Are Doing */
+                                                .OUR-Services{
+                                                    text-align: center;
+                                                    margin-top: 40px;
+                                                }
+                                                .what-we-are-doing{
+                                                    text-align: center;
+                                                }
+                                                .column-top-margin{
+                                                    margin-top: 30px;
+                                                }
+                                                .Three-columns{
+                                                    width: 330px;
+                                                    height: 169px;
+                                                    background-color: white;
+                                                    margin-left: 40px;
+                                                    margin-bottom: 30px;
+                                                    box-shadow: 2px 3px 9px 2px  grey;
+                                                }
+                                                    .Services-Images{
+                                                        margin: 30px 0px 0px 130px;
+                                                        width: 70px;
+                                                        height: 70px;
+                                                    }
+                                                    .About-Service{
+                                                        text-align: center;
+                                                        margin-top: 15px;
+                                                        color: royalblue;
+                                                        font-family: normal;
+                                                    }
+
+
+
+
+                                                    .white{
+                                                        background-color: white;
+                                                        padding: 60px;
+                                                    }
+                                                    .Future-projects{
+                                                        font-family: normal;
+                                                        color: #3F51B5;
+                                                        margin-left: 20px;
+                                                        margin-bottom: 30px;
+                                                    }
+                                                    .Upcoming-Events{
+                                                        margin-top: -50px;
+                                                        color: #3F51B5;
+                                                    }
+                                                    .future-events{
+                                                        color: #3F51B5;
+                                                        font-size: 25px;
+                                                        font-family: normal;
+                                                        text-align: center;
+                                                    }
+
+                                                    .Projects{
+                                                        background-color: #f7f8fa;
+                                                        width: 355px;
+                                                        height: 70px;
+                                                        margin-left: 20px;
+                                                        margin-bottom: 20px;
+                                                        }
+                                                        .Events{
+                                                            width: 300px;
+                                                             height: 170px;
+                                                             background-color: white;
+                                                             margin-top: -100px;
+                                                             margin-left: 40px;
+                                                        }
+                                                        .Upcoming-projects-images{
+                                                            margin: 15px 0px 0px 20px;
+                                                            width: 40px;
+                                                            height: 30px;
+                                                        }
+                                                        .Upcoming-projects-headings{
+                                                            color: #3F51B5;
+                                                            font-family: normal;
+                                                            font-size: 17px;text-transform: uppercase;
+                                                            margin-top: -20px;
+                                                            margin-left: 75px;
+                                                        }
+                                                        .More-Details{
+                                                            color: gray;
+                                                            height: 190px;
+                                                            width: 250px;
+                                                            line-height: 13px;
+                                                            font-family: Arial, Helvetica, sans-serif;
+                                                            font-size: 14px;
+                                                        }
+                                                        @media screen and (max-width:1200px){
+                                                            .Events{
+                                                                margin-top: 50px;
+                                                            }
+                                                        }
+
+
+
+
+                                                        /* Image Gallery */
+
+                                                      .Image-Gallery{
+                                                          text-align: center;
+                                                      }
+                                                      .Gallery-images{
+                                                        height:147px;
+                                                         width: 207px;
+                                                         margin-left: 10px;
+                                                         margin-bottom: 10px;
+                                                         margin-top: 10px;
+                                                    }
+                                                    @media screen and (max-width:1200px){
+                                                        .Gallery-images{
+                                                                height: 300px;
+                                                                width: 350px;
+                                                                margin-left: 80px;
+                                                                margin-top: 20px;
+                                                        }
+                                                    }
+
+
+
+                                                     /* Contact Numbers */
+                                                .Contact-Numbers{
+                                                    margin-top: 170px;
+                                                    background-color: #25272e ;
+                                                }
+                                                .Useful-links{
+                                                    color: white;
+                                                    text-align: center;
+                                                    padding: 70px;
+                                                    font-size: 18px;
+                                                }
+                                                .Connect-with-us{
+                                                    color: white;
+                                                    margin:0px 0px 0px 285px;
+                                                    font-size: 18px;
+                                                    
+                                                }
+                                                .Head{
+                                                    color: #bbb;
+                                                    margin: -100px 0px 0px 160px;
+                                                }
+                                                .pak{
+                                                    color: #bbb;
+                                                    margin: 10px 0px 0px 160px;
+                                                }
+                                                .uan{
+                                                    color: #bbb;
+                                                    margin: 15px 0px 0px 170px;   
+                                                }
+                                                .number{
+                                                    color: #bbb;
+                                                    margin: -15px 0px 0px 350px;  
+                                                }
+                                                .cell{
+                                                    color: #bbb;
+                                                    margin: 10px 0px 0px 170px;
+                                                }
+                                                .usa{
+                                                    color: #bbb;
+                                                    margin: 10px 0px 0px 170px;
+                                                }
+                                                .uk{
+                                                    color: #bbb;
+                                                    margin: 10px 0px 0px 170px;  
+                                                }
+                                                .infor{
+                                                    color: #bbb;
+                                                    margin: 10px 0px 0px 170px; 
+                                                }
+                                                .phone{
+                                                     margin: -300px 0px 0px 150px; 
+                                                    
+                                                }
+                                                .Copyright{
+                                                    height: 39px;
+                                                    width: 100;
+                                                    background-color: royalblue;
+                                                }
+                                                .abc{
+                                                    color: white;
+                                                    margin: 0px 0px 0px 154px ;
+                                                    padding: 10px;
+                                                    font-size: 10px;
+                                                }
+                                              
